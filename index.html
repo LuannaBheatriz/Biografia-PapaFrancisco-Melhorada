@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Biografia Papa Francisco</title>
+    <style>
+      .centralizar {
+          text-align: center;
+      }
+  </style>
+  </head>
+  <body>
+    <button id="theme-toggle" class="theme-toggle centralizar">Click Dark Mode</button>
+    <div class="container">
+      <header>
+        <div class="topnav">
+          <h3 class="centralizar page-title">Biografia Papa Francisco</h3>
+        </div>
+      </header>
+      <div class="div-conteudo centralizar">
+        <div id="menu">
+          <ul>
+            <li><button onclick="navigate('index.html')" class="active" data-page="index.html">Início</button></li>
+            <li><button onclick="navigate('infancia-juventude.html')" class="active" data-page="infancia-juventude.html">Infância e Juventude</button></li>
+            <li><button onclick="navigate('episcopado.html')" class="active" data-page="episcopado.html">Episcopado</button></li>
+          </ul>
+        </div>
+        <img class="picture" src="image/papa-perfil.jpg" />
+        <div class="description">
+          <h3 class="colorful-text">Papa Francisco</h3>
+          <p>
+            Francisco (em latim: Franciscus), S.J., nascido Jorge Mario
+            Bergoglio (Buenos Aires, 17 de dezembro de 1936), é o 266.º Papa da
+            Igreja Católica e atual Chefe de Estado da Cidade Estado do
+            Vaticano, sucedendo o Papa Bento XVI, que abdicou ao papado em 28 de
+            fevereiro de 2013.
+          </p>
+          <p>
+            É o primeiro papa nascido na América, o primeiro pontífice do
+            hemisfério sul, o primeiro papa a utilizar o nome de Francisco, o
+            primeiro pontífice não europeu em mais de 1 200 anos (o último havia
+            sido o sírio Gregório III, morto em 741) e também o primeiro papa
+            jesuíta da história. Tornou-se arcebispo de Buenos Aires em 28 de
+            fevereiro de 1998 e foi elevado ao cardinalato em 21 de fevereiro de
+            2001 — véspera da festa da Cátedra de São Pedro — com o título de
+            Cardeal-presbítero de São Roberto Belarmino, pelo Santo Padre São
+            João Paulo II. Foi eleito papa em 13 de março de 2013.
+          </p>
+          <p>
+            Ao longo de sua vida pública, o Papa Francisco se destacou por sua
+            humildade, ênfase na misericórdia de Deus, visibilidade
+            internacional como papa, preocupação com os pobres e compromisso com
+            o diálogo inter-religioso. Ele é creditado por ter uma abordagem
+            menos formal ao papado do que seus antecessores, por exemplo,
+            escolhendo residir na casa de hóspedes Domus Sanctae Marthae, em vez
+            de nos aposentos papais do Palácio Apostólico usados por papas
+            anteriores. Ele sustenta que a Igreja deve ser mais aberta e
+            acolhedora. Ele não apoia o capitalismo desenfreado, o marxismo ou
+            as versões marxistas da teologia da libertação. Francisco mantém as
+            visões tradicionais da Igreja em relação ao aborto, casamento,
+            ordenação de mulheres e celibato clerical. Ele se opõe ao consumismo
+            e apoia a ação sobre as mudanças climáticas, foco de seu papado com
+            a promulgação de Laudato si'.
+          </p>
+        </div>
+      </div>
+      <div class="topnav">
+        <footer><h5>Luanna Bheatriz Arouca dos Santos</h5></footer>
+      </div>
+    </div>
+    <script defer src="script.js"></script>
+    <script>
+        function navigate(page) {
+            window.location.href = page;
+        }
+    </script>
+  </body>
+</html>

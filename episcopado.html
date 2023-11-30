@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Biografia Papa Francisco</title>
+    <style>
+      .centralizar {
+          text-align: center;
+      }
+  </style>
+  </head>
+  <body>
+    <button id="theme-toggle" class="theme-toggle centralizar">Click Dark Mode</button>
+    <div class="container">
+      <header>
+        <div class="topnav">
+          <h3 class="centralizar page-title">Biografia Papa Francisco</h3>
+        </div>
+      </header>
+      <div class="div-conteudo centralizar">
+        <div id="menu">
+          <ul>
+            <li><button onclick="navigate('index.html')" class="active" data-page="index.html">Início</button></li>
+            <li><button onclick="navigate('infancia-juventude.html')" class="active" data-page="infancia-juventude.html">Infância e Juventude</button></li>
+            <li><button onclick="navigate('episcopado.html')" class="active" data-page="episcopado.html">Episcopado</button></li>
+          </ul>
+        </div>
+        <img class="picture" src="image/episco.jpg" />
+        <div class="description">
+          <h3 class="colorful-text">Episcopado</h3>
+          <p>
+            Em 20 de maio de 1992, o Papa João Paulo II o nomeou bispo auxiliar
+            de Buenos Aires, com a sé titular de Auca (Aucensi). Sua ordenação
+            episcopal deu-se a 27 de junho de 1992, pelas mãos do cardeal
+            Quarracino, de Dom Emilio Ogñénovich e de Dom Ubaldo Calabresi. Em 3
+            de junho de 1997, foi nomeado arcebispo coadjutor de Buenos Aires.
+            Tornou-se arcebispo metropolitano de Buenos Aires no dia 28 de
+            fevereiro de 1998.
+          </p>
+          <p>
+            Foi nomeado ordinário para os fiéis de rito oriental sem ordinário
+            próprio, na Argentina, pelo Papa João Paulo II, em 30 de novembro de
+            1998.
+          </p>
+          <p>
+            Foi criado cardeal no Consistório Ordinário Público de 2001,
+            ocorrido em 21 de fevereiro de 2001, presidido pelo Papa João Paulo
+            II, recebendo o título de cardeal-presbítero de São Roberto
+            Belarmino. Quando foi nomeado, convenceu centenas de argentinos a
+            não viajarem para Roma. Em vez de irem ao Vaticano celebrar a
+            nomeação, pediu que dessem o dinheiro da viagem aos pobres.
+          </p>
+          <p>Foi membro dos seguintes dicastérios na Cúria Romana:</p>
+          <div style="margin-bottom: 10px;">
+            <ul>
+              <li>Congregação para o Clero</li>
+              <li>Congregação para o Culto Divino e Disciplina dos Sacramentos</li>
+              <li>Congregação para os Institutos de Vida Consagrada e Sociedades de Vida Apostólica</li>
+              <li>Pontifícia Comissão para a América Latina</li>
+              <li>Pontifício Conselho para a Família</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="topnav">
+        <footer><h5>Luanna Bheatriz Arouca dos Santos</h5></footer>
+      </div>
+    </div>
+    <script defer src="script.js"></script>
+    <script>
+        function navigate(page) {
+            window.location.href = page;
+        }
+    </script>
+  </body>
+</html>
